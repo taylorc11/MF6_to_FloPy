@@ -1,0 +1,12 @@
+# Dependencies for mf6_to_flopy.py
+# Install with:  python -m pip install -r requirements.txt
+#
+# Core (required):
+numpy
+flopy
+#
+# Optional (only needed for the corresponding features):
+matplotlib      # --plots / --postprocess : head-contour and discharge PNGs
+pandas          # --postprocess           : List Budget dataframes / CSVs
+geopandas       # --export                : grid / attribute shapefiles
+vtk             # --export --vtk          : 3-D VTK output for ParaView
